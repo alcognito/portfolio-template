@@ -83,7 +83,7 @@ p {
     font-weight: bold;
 }
 
-img {
+img, iframe {
     max-width: 300px;
     max-height: 400px;
     margin: auto;
@@ -154,4 +154,16 @@ main {
 .link-btn:hover {
     background-color: #1e6554;
     color: white;
+}
+
+@media only screen and (max-width: 500px){
+    #header-main{
+        display:block;
+    }
+
+    #header-blurb{
+        width:100%
+    }
+
+    /*no longer display grid; */
 }
